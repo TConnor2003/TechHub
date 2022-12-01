@@ -3,13 +3,25 @@ Website i am making to have any tool that you may need for diagnosing issues or 
 Currently Planned Tools (Very Long List)
 
 <details>
-<summary>How do I dropdown?</summary>
+<summary>Unit Conversions</summary>
 <br>
 
-<details1>
-<summary>How do I dropdown?</summary>
+<details>
+<summary>Time</summary>
 <br>
-This is how you dropdown.
-</details1>
+Seconds and minutes etc
+</details>
+
+<details>
+<summary>weight</summary>
+<br>
+kilos and pounds etc
+</details>
+
+<details>
+<summary>Length</summary>
+<br>
+Metres and miles etc
+</details>
 
 </details>
