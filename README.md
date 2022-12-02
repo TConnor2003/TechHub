@@ -1,6 +1,17 @@
-# Name Pending
+
 Website i am making to have any tool that you may need for diagnosing issues or errors in a computer or comverting between any two different units of measurment
-Currently Planned Tools (Very Long List)
+Currently Planned Tools (Long List so broken down into different menus)
+
+<!--Currently Planned Features-->
+Calculator  
+Colour wheel rgb value picker  
+text-binary-ascii-morse code-roman numerals  
+password generator  
+random number/card generator  
+click speed test  
+word/character counter  
+spinner wheel  
+touchscreen calibrator  
 
 <details>
 <summary>Unit Conversions</summary>
@@ -23,13 +34,20 @@ kilos and pounds etc
 <br>
 Metres and miles etc
 </details>
+</details>
 
-</details
-
-
+<!--Tools-->
 
 <details>
-<summary>Length</summary>
+<summary>Internet Tools</summary>
 <br>
-Metres and miles etc
+<details>
+<summary>Internet Troubleshooting</summary>
+<br> ip speedtest auto refresh etc
 </details>
+
+ main
+</details>
+</details>
+
+
