@@ -1,4 +1,4 @@
-# websitename
+
 Website i am making to have any tool that you may need for diagnosing issues or errors in a computer or comverting between any two different units of measurment
 Currently Planned Tools (Long List so broken down into different menus)
 
@@ -46,9 +46,7 @@ Metres and miles etc
 <br> ip speedtest auto refresh etc
 </details>
 
-<details>
-<summary>Hardware checking</summary>
-<br>Keyboard/mouse sound mic etc
+ main
 </details>
 </details>
 
