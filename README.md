@@ -58,3 +58,4 @@ sound and mic test plus keyboard and mouse checker
 </details>
 Might add more things as time goes on but this is just a way for me to learn some more html and javascript
 
+
