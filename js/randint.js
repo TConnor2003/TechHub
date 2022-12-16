@@ -1,4 +1,4 @@
-//random integer between two given numbers animated
+//random integer between two given numbers
 function randint() {
   var min = parseInt(document.getElementById("min").value);
   var max = parseInt(document.getElementById("max").value);
@@ -17,3 +17,4 @@ function randint() {
   }
   document.getElementById("output").innerHTML = rand;
 }
+
