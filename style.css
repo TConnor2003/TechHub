@@ -17,15 +17,32 @@ header {
     height: 70px;
     line-height: 70px;
 }
-#home {
+
+header .home {
     text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 30px;
 }
-#home:hover {
+
+header .home:hover {
     color: #ffffff;
 }
 
-#home:visited {
+.mainlinks {
+    border: 2px solid #022c0c;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 25%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.sitenav {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    display: block;
 }
