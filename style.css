@@ -39,7 +39,13 @@ header .home:hover {
     text-decoration: none;
     color: #000000;
     font-size: 30px;}
-.sitenav:hover {
+
+.sitenav .sitelinks {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;}
+.sitenav .sitelinks:hover {
     text-decoration: none;
     color: #78bc61;}
 
