@@ -3,22 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Futura', sans-serif;}
+
 body {
     background-color: #ffffff;
     color: rgb(0, 0, 0);}
+
 header {
     background-color: #78bc61;
     color: rgb(0, 0, 0);
     width: 100%;
     height: 70px;
     line-height: 70px;}
+
 header .home {
     text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 30px;}
+
 header .home:hover {
     color: #ffffff;}
+
 .mainlinks {
     border: 2px solid #022c0c;
     background-color: #ffffff;
@@ -29,25 +34,31 @@ header .home:hover {
     margin-top: 100px;
     padding: 5px;
     font-size: 30px;}
+
 .mainlinks a {
     color: #000000;
     text-decoration: none;}
+
 .mainlinks a:hover {
     color: #78bc61;}
+
 .sitenav {
     text-align: center;
     text-decoration: none;
     color: #000000;
     font-size: 30px;}
 
-.sitenav .sitelinks {
+.sitenav a {
     text-align: center;
     text-decoration: none;
     color: #000000;
     font-size: 30px;}
-.sitenav .sitelinks:hover {
+
+.sitenav a:hover {
     text-decoration: none;
     color: #78bc61;}
+
+
 
 
 
