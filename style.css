@@ -29,9 +29,9 @@ header .home:hover {
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 10px;
-    width: 750px;
+    width: 500px;
     margin-left: 25%;
-    margin-top: 100px;
+    margin-top: 25px;
     padding: 5px;
     font-size: 30px;}
 
@@ -46,20 +46,35 @@ header .home:hover {
     text-align: center;
     text-decoration: none;
     color: #000000;
-    font-size: 30px;}
+    font-size: 20px;}
 
 .sitenav a {
     text-align: center;
     text-decoration: none;
-    color: #000000;
-    font-size: 30px;}
+    color: #000000;}
 
 .sitenav a:hover {
     text-decoration: none;
     color: #78bc61;}
 
+footer {
+    background-color: #78bc61;
+    color: rgb(0, 0, 0);
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    padding-top: 15px;
+    position: fixed;
+    text-align: center;}
 
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;}
 
+footer a:hover {
+    text-decoration: none;
+    color: #ffffff;}
 
 
 
