@@ -2,27 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Futura', sans-serif;}
+    font-family: 'Futura', sans-serif;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 body {
     background-color: #ffffff;
-    color: rgb(0, 0, 0);}
+    color: rgb(0, 0, 0);
+    margin-bottom: 70px;
+    padding-bottom: 1px;
+}
 
 header {
     background-color: #78bc61;
     color: rgb(0, 0, 0);
     width: 100%;
     height: 70px;
-    line-height: 70px;}
+    line-height: 70px;
+}
 
 header .home {
     text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 30px;}
+    font-size: 30px;
+}
 
 header .home:hover {
-    color: #ffffff;}
+    color: #ffffff;
+}
 
 .mainlinks {
     border: 2px solid #022c0c;
@@ -33,86 +45,63 @@ header .home:hover {
     margin-left: 25%;
     margin-top: 25px;
     padding: 5px;
-    font-size: 30px;}
+    font-size: 30px;
+}
 
 .mainlinks a {
     color: #000000;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .mainlinks a:hover {
-    color: #78bc61;}
+    color: #78bc61;
+}
 
 .sitenav {
     text-align: center;
     text-decoration: none;
     color: #000000;
-    font-size: 20px;}
+    font-size: 20px;
+}
 
 .sitenav a {
     text-align: center;
     text-decoration: none;
-    color: #000000;}
+    color: #000000;
+}
 
 .sitenav a:hover {
     text-decoration: none;
-    color: #78bc61;}
+    color: #78bc61;
+}
 
 footer {
     background-color: #78bc61;
     color: rgb(0, 0, 0);
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 70px;
     padding-top: 15px;
-    position: fixed;
-    text-align: center;}
+    position: absolute;
+    text-align: center;
+    float: left;
+    float: inline-end;
+}
+
+.footer {
+padding-top: 15px;
+padding-top: 15px;
+margin-top: 25px;
+}
 
 footer a {
     text-align: center;
     text-decoration: none;
-    color: #000000;}
+    color: #000000;
+}
 
 footer a:hover {
     text-decoration: none;
-    color: #ffffff;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    color: #ffffff;
+}
 

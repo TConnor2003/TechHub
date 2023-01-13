@@ -1,0 +1,35 @@
+.mainlinks {
+    border: 2px solid #022c0c;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.mainlinks a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.mainlinks a:hover {
+    color: #78bc61;
+}
+
+.calculator-grid {
+    border: 2px solid #022c0c;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+    font-size: 30px;
+}
