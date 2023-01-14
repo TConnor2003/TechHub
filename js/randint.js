@@ -42,7 +42,7 @@ function randint() {
 //use navigator.clipboard to copy text to clipboard then turn the number green if another number is copied, turn the previous number black again
 function copy() {
   navigator.clipboard.writeText(event.target.innerHTML);
-  event.target.style.color = "green";
+  event.target.style.color = "white";
   var rand = document.getElementsByClassName("rand");
   for (var i = 0; i < rand.length; i++) {
     if (rand[i] != event.target) {
@@ -50,33 +50,3 @@ function copy() {
     }
   }
 }
-//display copied number in div with id="copied"
-function copied() {
-  document.getElementById("copied").innerHTML = "Copied: " + event.target.innerHTML;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* //use navigator.clipboard to copy text to clipboard then turn the number green
-function copy() {
-  navigator.clipboard.writeText(event.target.innerHTML);
-  event.target.style.color = "green";
-}
-// is user copies another number, turn the previous number black again
-function reset() {
-  var rand = document.getElementsByClassName("rand");
-  for (var i = 0; i < rand.length; i++) {
-    rand[i].style.color = "black";
-  }
-} */

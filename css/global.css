@@ -11,18 +11,17 @@ html {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #0a0a0a;
     color: rgb(0, 0, 0);
     margin-bottom: 70px;
     padding-bottom: 1px;
 }
 
 header {
-    background-color: #78bc61;
+    background-color: #60c040;
     color: rgb(0, 0, 0);
     width: 100%;
-    height: 70px;
-    line-height: 70px;
+    min-height: 70px;
 }
 
 header .home {
@@ -54,13 +53,12 @@ header .home:hover {
 }
 
 .mainlinks a:hover {
-    color: #78bc61;
+    color: #60c040;
 }
 
 .sitenav {
     text-align: center;
     text-decoration: none;
-    color: #000000;
     font-size: 20px;
 }
 
@@ -72,11 +70,11 @@ header .home:hover {
 
 .sitenav a:hover {
     text-decoration: none;
-    color: #78bc61;
+    color: #ffffff;
 }
 
 footer {
-    background-color: #78bc61;
+    background-color: #60c040;
     color: rgb(0, 0, 0);
     bottom: 0;
     width: 100%;
@@ -113,5 +111,8 @@ footer a:hover {
     border: 2px solid #022c0c;
     background-color: #ffffff;
     border-radius: 10px;
+}
 
+.breadcrumb {
+    float: left;
 }
