@@ -39,6 +39,8 @@ function loadpage() {
 	urls[urls.length - 1] = urls[urls.length - 1].split(".")[0];
 	console.log(urls);
 
+
+
 	//create <a> tags for each variable separated by /
 	var breadcrumb = document.getElementById("breadcrumb");
 	for (var i = 2; i < urls.length; i++) {
@@ -54,7 +56,7 @@ function loadpage() {
 			a[i].insertAdjacentHTML("afterend", " > ");
 		}
 	}
-
+	console.log(urls);
 	//set the last <a> tag to the title of the webpage
 	var title = document.title;
 	a[a.length - 1].innerHTML = title;
@@ -62,7 +64,8 @@ function loadpage() {
 	if (title == "") {
 		a[a.length - 1].innerHTML = "Untitled Page";
 	}
-
+	console.log(title);
+	console.log(a[a.length - 1].innerHTML)
 	//write the footer menu in html before the /body tag with insertAdjacentHTML
 	document.body.insertAdjacentHTML(
 		"beforeend",
@@ -77,4 +80,5 @@ function loadpage() {
     </footer>
     `
 	);
+
 }
