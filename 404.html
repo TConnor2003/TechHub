@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Template Page - TechHub</title>
-    <meta name="keywords" content="Trooubleshoot, Tech, IP, Convert">
-    <meta name="author" content="Tom Connor">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Template Page" content="Free Online Conversion and troubleshooting tools">
-    <link rel="stylesheet" href="/css/global.css">
+    <title>404 Page not found</title>
     <script src="/js/loadcontent.js" defer></script>
+    <link rel="stylesheet" href="/css/global.css">
+
 </head>
 
-<body>
+<body style="text-align: center; background-color: black; color: white;">
     <header>
         <script src="/js/breadcrumb.js"></script>
     </header>
-    <h1 style="text-align: center; font-size: 100;">Oh no there was a fucky wucky and i have no idea how you ended up
-        here</h1>
-    <h2 style="text-align: center;">uh yeah this is a 404 page which means either i fucked up with a link or you cant
-        spell</h2>
-    <h3 style="text-align: center;">If i fucked up somewhere let me know so i can fix it. Either create a pull request
-        on <a href="https://github.com/craftyplayz/techhub">my Github</a> or msg me on discord Crafty#2216</h3>
-    <h1 style="text-align: center;"><a href="/">Homepage</a></h1>
+    <h1 style="font-size: 80px;">404</h1>
+    <p id="demo" style="font-size: xx-large;"></p>
+    <button onclick="history.back()">Go Back</button>
+    <script>
+        document.getElementById("demo").innerHTML =
+            "The file: <b>" + window.location.href + "</b> could not be found.";
+    </script>
+    <p>If you believe this is in error feel free to contact me at <b style="font-size: 20px;">support@tconnor.co.uk</b>
+    </p>
+
     <div id="footer">Loading</div>
 </body>
 
