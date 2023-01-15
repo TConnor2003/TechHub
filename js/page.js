@@ -37,9 +37,6 @@ function loadpage() {
 	urls[0] = "";
 	urls[1] = "";
 	urls[urls.length - 1] = urls[urls.length - 1].split(".")[0];
-	console.log(urls);
-
-
 
 	//create <a> tags for each variable separated by /
 	var breadcrumb = document.getElementById("breadcrumb");
@@ -50,13 +47,12 @@ function loadpage() {
 		breadcrumb.appendChild(a);
 	}
 	//write > between every <a> tag in the breadcrumb div except for id logo and the last one
-	var a = document.getElementsByTagName("a");
+	var a = document.getElementById("breadcrumb").getElementsByTagName("a"); /* document.getElementsByTagName("a"); */
 	for (var i = 0; i < a.length; i++) {
 		if (a[i].id != "logo" && i != a.length - 1) {
 			a[i].insertAdjacentHTML("afterend", " > ");
 		}
 	}
-	console.log(urls);
 	//set the last <a> tag to the title of the webpage
 	var title = document.title;
 	a[a.length - 1].innerHTML = title;
@@ -64,8 +60,7 @@ function loadpage() {
 	if (title == "") {
 		a[a.length - 1].innerHTML = "Untitled Page";
 	}
-	console.log(title);
-	console.log(a[a.length - 1].innerHTML)
+
 	//write the footer menu in html before the /body tag with insertAdjacentHTML
 	document.body.insertAdjacentHTML(
 		"beforeend",
@@ -80,5 +75,4 @@ function loadpage() {
     </footer>
     `
 	);
-
 }

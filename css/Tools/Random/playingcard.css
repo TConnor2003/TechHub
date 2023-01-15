@@ -1,0 +1,18 @@
+.playingcard {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50vh;
+    height: 75vh;
+    border-radius: 15px;
+    background-color: #60c040;
+    text-align: center;
+    padding-top: 15px;
+    color: red;
+    font-size: 50px;
+}
+
+.playingcard #desc {
+    color: black;
+}
+

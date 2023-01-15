@@ -9,7 +9,7 @@ function randint() {
   var max = parseInt(document.getElementById("max").value);
   var num = parseInt(document.getElementById("num").value);
   if (num > 100) {
-    alert("Cannot generate more than 100 numbers");
+    alert("Cannot generate more than 100 numbers at a time\nThis may be increased in the future if requested"); 
     return;
   }
   if (min > max) {
@@ -42,11 +42,11 @@ function randint() {
 //use navigator.clipboard to copy text to clipboard then turn the number green if another number is copied, turn the previous number black again
 function copy() {
   navigator.clipboard.writeText(event.target.innerHTML);
-  event.target.style.color = "white";
+  event.target.style.color = "black";
   var rand = document.getElementsByClassName("rand");
   for (var i = 0; i < rand.length; i++) {
     if (rand[i] != event.target) {
-      rand[i].style.color = "black";
+      rand[i].style.color = "white";
     }
   }
 }
