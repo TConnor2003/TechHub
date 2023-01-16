@@ -10,17 +10,16 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="module" src="/js/coinflip.js"></script>
     <script src="/js/page.js" async></script>
-
+    <link rel="preload" as="image" href="/assets/images//coinflip/flipping.png">
+    <link rel="preload" as="image" href="/assets/images//coinflip/heads.png">
+    <link rel="preload" as="image" href="/assets/images//coinflip/tails.png">
 </head>
-
 <body>
     <div class="generator">
 <!--         <p>Defaults to one</p>
         <input id="amount" type="text" class="input" placeholder="Amount of coins to flip"><br> -->
-        <button onclick="coinflip()" id="flip">Flip Coin</button>
-        <h1 id="coin">Output<!-- <img src="/assets/images/coinflip/flipping.png"> --></h1>
+        <button class="flip">Flip Coin</button>
+        <h1 id="coin" class="flip"><img src="/assets/images/coinflip/flipping.png"></h1>
     </div>
-
-
 </body>
 </html>

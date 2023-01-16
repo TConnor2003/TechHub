@@ -144,6 +144,7 @@ input {
     margin-bottom: 50px;
     background-color: #60c040;
     text-align: center;
+    min-height: 30vh;
 }
 
 .generator output {

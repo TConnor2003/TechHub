@@ -8,11 +8,15 @@ function randint() {
   var min = parseInt(document.getElementById("min").value);
   var max = parseInt(document.getElementById("max").value);
   var num = parseInt(document.getElementById("num").value);
-
+//if amount of numbers to generate is greater than 250 alert user
+  if (num > 250) {
+    alert("Please enter a number less than 250");
+    return;
+  }
   if (min > max) {
     alert("Please enter a minimum number less than the maximum");
     return;
-  }
+  }   
   //if no minimum number is specified set minimum to 0
   if (isNaN(min)) {
     min = 1;

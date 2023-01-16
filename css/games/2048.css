@@ -1,0 +1,43 @@
+.gamecontainer {
+    border: 1px solid #ffffff;
+    width: 75%;
+    height: 75vh;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    background-color: #60c040;
+}
+
+.button {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.stats {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* put the div class gridcell in a 4x4 grid */
+.gridcell {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
