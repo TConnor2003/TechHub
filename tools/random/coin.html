@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Random Coinflip - TechHub</title>
     <meta name="keywords" content="Trooubleshoot, Tech, IP, Convert">
     <meta name="author" content="Tom Connor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Template Page" content="Free Online Conversion and troubleshooting tools">
-    <script src="/js/page.js" defer></script>
-</head>
-<body>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="module" src="/js/coinflip.js"></script>
+    <script src="/js/page.js" async></script>
 
-<div class="mainlinks">
-    <a href="/calculator/index.html">Calculator</a><br>
-    <a href="/conversions/index.html">Conversions</a><br>
-    <a href="/tools/index.html">Tools</a><br>
-</div>
+</head>
+
+<body>
+    <div class="generator">
+<!--         <p>Defaults to one</p>
+        <input id="amount" type="text" class="input" placeholder="Amount of coins to flip"><br> -->
+        <button onclick="coinflip()" id="flip">Flip Coin</button>
+        <h1 id="coin">Output<!-- <img src="/assets/images/coinflip/flipping.png"> --></h1>
+    </div>
+
+
 </body>
 </html>

@@ -24,7 +24,7 @@ function loadpage() {
 
 	//link to the css file in the head tag with insertAdjacentHTML
 	document.head.insertAdjacentHTML(
-		"beforeend",
+		"beforebegin",
 		`
     <link rel="stylesheet" href="/css/global.css">
     `

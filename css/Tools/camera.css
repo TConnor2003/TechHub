@@ -1,0 +1,18 @@
+.camera {
+    border: 15px solid #fff;
+    width: 100%;
+    /* set height to 100vh minus 140px */
+    height: calc(100vh - 70px);
+    margin: auto;
+    position: relative;
+    background-color: rgb(73, 5, 5);
+}
+
+.info {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}

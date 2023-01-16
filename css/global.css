@@ -118,8 +118,57 @@ footer a:hover {
     border: 2px solid #022c0c;
     background-color: #ffffff;
     border-radius: 10px;
+    color: black;
 }
 
 .breadcrumb {
     float: left;
+}
+
+input {
+    text-align: center;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    width: 80%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.generator {
+    width: 60%;
+    border: 10px solid #60c040;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #60c040;
+    text-align: center;
+}
+
+.generator output {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 50px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+output {
+    white-space: pre-wrap;
+    background-color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #174109;
+    color: #ffffff;
 }

@@ -6,7 +6,7 @@ function generatecard() {
 	}
 
 	function deck() {
-		this.names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"];
+		this.names = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"];
 		this.suits = ["♥", "♦", "♠", "♣"];
 		var cards = [];
 
