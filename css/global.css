@@ -95,7 +95,6 @@ footer {
 
 .footer {
 padding-top: 15px;
-padding-top: 15px;
 margin-top: 25px;
 }
 
@@ -112,6 +111,7 @@ footer a:hover {
 
 .maincontent {
     margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 25%;
     margin-right: 25%;
     padding: 25px;

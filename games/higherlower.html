@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Higher Lower Game - TechHub</title>
     <script src="/js/page.js" defer></script>
-
     <link rel="stylesheet" href="/css/Tools/Random/playingcard.css">
 </head>
+
 <body>
-    
-<div class="playingcard">
-    <p id="playingcard">Random Card</p>
-    <button onclick="generatecard()">Generate</button>
-    <p id="desc">Will add card images soon</p>
-</div>
-<script src="/js/randomcard.js"></script>
+    <div class="playingcard">
+        <p id="playingcard">Random Card</p>
+        <button onclick="startgame()" id="startbutton" style="display: inline;">Start Game</button>
+        <button onclick="higher()" id="higherbutton" style="display: none;">Higher</button>
+        <button onclick="lower()" id="lowerbutton" style="display: none;">Lower</button>
+        <button onclick="startgame()" id="restartbutton" style="display: none;">Game over<br>Restart?</button>
+        <p class="score" id="score">Score : 0</p>
+        <p class="score" id="highscore">High Score : 0</p><br>
+        <p id="desc" style="font-size: 20px;">Will add card images soon</p>
+    </div>
+    <div class="maincontent">
+        <h1 style="text-align: center;">Higher Lower</h1><br>
+        <p>Higher Lower is a card game where you have to guess if the next card will be higher or lower than the
+            previous card.</p><br>
+        <p>Each time you guess correctly you get a point, if you guess wrong you lose a point.</p><br>
+        <p>Try to get the highest score you can!</p><br>
+        <p>If the cards are the same then it counts as a loss</p><br>
+        <p>This may be changed</p><br>
+        <p>The ace has a vaule of 1 The jack, queen and king have a value of 11, 12 and 13 respectively</p><br>
+    </div>
+    <script src="/js/higherlower.js"></script>
 </body>
 
 </html>
