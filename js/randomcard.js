@@ -23,8 +23,9 @@ function generatecard() {
 
 	//pick a random card from the deck
 	var randomCard = myDeck[Math.floor(Math.random() * myDeck.length)];
-	document.getElementById("playingcard").innerHTML = randomCard.name + " of " + randomCard.suit;
 	console.log(randomCard);
+	document.getElementById("playingcard").innerHTML = randomCard.name + " of " + randomCard.suit;
+
     //if the card is a heart or diamond, make the text red else make it black
     if (randomCard.suit == "♥" || randomCard.suit == "♦") {
         document.getElementById("playingcard").style.color = "red";
