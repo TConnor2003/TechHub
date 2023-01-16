@@ -6,15 +6,6 @@ function loadpage() {
 	document.body.insertAdjacentHTML(
 		"afterbegin",
 		`
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYYQYWWEMP"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-        
-            gtag('config', 'G-KYYQYWWEMP');
-        </script>
         <header>
             <h1 style="text-align: center;"><a id="logo" class="home" href="/">TechHub</a></h1>
             <div class="sitenav" id="breadcrumb"></div>
