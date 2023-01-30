@@ -1,4 +1,4 @@
-# Name Pending
+# TechHub
 
 Website i am making to have any tool that you may need for diagnosing issues or errors in a computer or comverting between any two different units of measurment
 Currently Planned Tools (Long List so broken down into different menus)
@@ -9,6 +9,7 @@ Colour wheel rgb value picker
 text-binary-ascii-morse code-roman numerals  
 password generator  
 random number/card generator  
+Random Coin Flip  
 click speed test  
 word/character counter  
 spinner wheel  
