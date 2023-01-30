@@ -58,5 +58,15 @@ sound and mic test plus keyboard and mouse checker
 </details>
 </details>
 Might add more things as time goes on but this is just a way for me to learn some more html and javascript
+<br>
+image generators need to learn  
+url shortener  
+pastebin with syntax highlighting etc  
+dark/light theme  
+<br>
+Detect browser  
+detect client time  
+
+
 
 
