@@ -59,14 +59,25 @@ sound and mic test plus keyboard and mouse checker
 </details>
 Might add more things as time goes on but this is just a way for me to learn some more html and javascript
 <br>
-image generators need to learn  
-url shortener  
-pastebin with syntax highlighting etc  
-dark/light theme  
+image generators need to learn<br>
+url shortener<br>
+pastebin with syntax highlighting etc<br>
+dark/light theme<br>
 <br>
-Detect browser  
-detect client time  
-
-
-
-
+Detect browser<br>
+detect client time<br>
+Storage space calculator (with pricing from different providers<br>
+useful code snippets Html, Css, Js, PHP<br>
+code generators<br>
+Phone info comparisons<br>
+Explain All types of usb<br>
+Links to loads of opertaing systems<br>
+Links to Spreadsheets containing pc info<br>
+custom new tab page maker<br>
+Clicks Per second<br>
+Darts scoreboard and calculator<br>
+Pi chart generator<br>
+sound frequencies generator<br>
+<br>
+Chrome Extension to combine alot of tools
+<br>
