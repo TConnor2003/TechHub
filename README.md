@@ -67,6 +67,8 @@ dark/light theme
 Detect browser  
 detect client time  
 Storage space calculator (with pricing from different providers  
+useful code snippets  
+code generators  
 
 
 
