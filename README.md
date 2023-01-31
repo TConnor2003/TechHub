@@ -72,12 +72,12 @@ code generators<br>
 Phone info comparisons<br>
 Explain All types of usb<br>
 Links to loads of opertaing systems<br>
-Links to 
+Links to Spreadsheets containing pc info<br>
 custom new tab page maker<br>
-
-
-
-
-
-
-
+Clicks Per second<br>
+Darts scoreboard and calculator<br>
+Pi chart generator<br>
+sound frequencies generator<br>
+<br>
+Chrome Extension to combine alot of tools
+<br>
