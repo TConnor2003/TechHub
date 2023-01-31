@@ -70,7 +70,7 @@ Storage space calculator (with pricing from different providers<br>
 useful code snippets Html, Css, Js, PHP<br>
 code generators<br>
 Phone info comparisons<br>
-Explain All types of usb<br>
+Explain All types of usb (Scary)<br>
 Links to loads of opertaing systems<br>
 Links to Spreadsheets containing pc info<br>
 custom new tab page maker<br>
@@ -78,6 +78,11 @@ Clicks Per second<br>
 Darts scoreboard and calculator<br>
 Pi chart generator<br>
 sound frequencies generator<br>
+Instructions on how to host a mc server with some free hosts<br>
+how to mod minecraft or add plugins/datapacks etc<br>
+Emoji/weird symbols like the copyright sign<br>
+Data Usage calculator For mobile phone and internet plans<br>
+
 <br>
 Chrome Extension to combine alot of tools
 <br>
