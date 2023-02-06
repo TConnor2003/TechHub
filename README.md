@@ -82,6 +82,7 @@ Instructions on how to host a mc server with some free hosts<br>
 how to mod minecraft or add plugins/datapacks etc<br>
 Emoji/weird symbols like the copyright sign<br>
 Data Usage calculator For mobile phone and internet plans<br>
+history of these symbols @ & * ¬ ~<br>
 
 <br>
 Chrome Extension to combine alot of tools
