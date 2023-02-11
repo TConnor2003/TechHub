@@ -1,4 +1,4 @@
-//clears output div
+ //clears output div
 function clear() {
   document.getElementById("output").innerHTML = "";
 }
