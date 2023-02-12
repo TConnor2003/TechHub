@@ -15,17 +15,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Template Page" content="Free Online Conversion and troubleshooting tools">
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-
     <script src="/js/page.js" async></script>
 </head>
 
 <body>
-    <div class="generator" style="height: 80vh;">
+    <div class="generator" style="height: 100vh;" id="background">
         <h1 style="font-size: 50px;">Click to generate a random letter</h1>
         <button type="button" id="generate">Generate</button>
-        <p style="font-size: 100px;" id="letter">Scattergories</p>
+        <p style="font-size: 100px; @media (min)" id="letter" >Scattergories</p>
+        <p id="counter" style="font-size: 100px; display: none;">300</p>
     </div>
     <script type="module" src="/js/randletter.js"></script>
-    <h6></h6>
 </body>
 </html>

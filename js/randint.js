@@ -50,3 +50,26 @@ function copy() {
     }
   }
 }
+
+
+
+
+
+function timer() {
+	var counter = 100;
+	var interval = setInterval(function () {
+		counter--;
+		if (counter < 50) {
+			$("#background").css("transition", "1s");
+			$("#background").css("background-color", "orange");
+		}
+		if (counter < 0) {
+			clearInterval(interval);
+			$("#background").css("transition", "0s");
+			$("#background").css("background-color", "#c04040");
+			$("#counter").css("display", "none");
+			return;
+		}
+		$("#counter").html(counter);
+	}, 0);
+}
